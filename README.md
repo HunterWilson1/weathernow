@@ -1,29 +1,15 @@
-# weathernow
+# WeatherNow
 
-This template should help get you started developing with Vue 3 in Vite.
+WeatherNow is a weather forecast application built using the Vue.js framework. It provides users with current weather information and a 5-day forecast for their desired locations. This project is a rework of a previous weather application, leveraging the power and flexibility of Vue.js to enhance the user experience.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Current Weather: Get real-time weather data, including temperature, humidity, and wind speed, for a specific city.
+- 5-Day Forecast: View a detailed forecast for the next five days, including temperature, humidity, and wind speed.
+- Search Functionality: Enter the name of a city to retrieve weather information for that location.
+- Responsive Design: The app is designed to adapt and provide an optimal user experience on various devices and screen sizes.
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Vue.js: A progressive JavaScript framework for building user interfaces.
+- OpenWeatherMap API: An API that provides weather data, including current conditions and forecasts.

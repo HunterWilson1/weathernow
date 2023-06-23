@@ -2,7 +2,7 @@
   <div
     class="flex flex-col min-h-screen font-Roboto bg-weather-primary"
   >
-    <navbar />
+
     
     <RouterView class="flex-1" v-slot="{ Component }">
       <Transition name="page">
@@ -15,7 +15,6 @@
 
 <script setup>
 import { RouterView } from "vue-router";
-import navbar from "./components/Navbar.vue";
 
 </script>
 
